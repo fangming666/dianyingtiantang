@@ -14,7 +14,7 @@ const state = {
 
 const mutations = {
   REQUIRE_INFO(state, resultArr){
-    state.movieInfo = resultArr
+    state.movieInfo = resultArr.data.data
   }
 };
 
